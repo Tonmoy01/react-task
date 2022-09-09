@@ -9287,6 +9287,41 @@
         "https://static.toiimg.com/thumb/resizemode-4,msid-86550242,imgsize-49546,width-720/86550242.jpg"
       ],
       "id": "JEV_DlD"
+    },
+    {
+      "phone_details": {
+        "model": "mi 11 pro max",
+        "ram": 8,
+        "internal_storage": 256
+      },
+      "brand": "Xiaomi",
+      "speciality": [
+        "Best Value",
+        "Best Performance",
+        "Best Camera"
+      ],
+      "phone_price": "34999",
+      "phone_images": [
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-11-pro-5g-1.jpg"
+      ],
+      "id": "WmOouHR"
+    },
+    {
+      "phone_details": {
+        "model": "mi 11t",
+        "ram": 8,
+        "internal_storage": 256
+      },
+      "brand": "Xiaomi",
+      "speciality": [
+        "Best Performance",
+        "Best Camera"
+      ],
+      "phone_price": "39998",
+      "phone_images": [
+        "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-11t-1.jpg"
+      ],
+      "id": "sWCiwKy"
     }
   ]
 }

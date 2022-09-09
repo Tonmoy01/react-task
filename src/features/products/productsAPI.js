@@ -7,12 +7,12 @@ export const getProducts = async (search) => {
     queryStr += `&q=${search}`;
   }
 
-  const res = await axios.get(`/products/?${queryStr}`);
+  let res = await axios.get(`products/?${queryStr}`);
 
   return res.data;
 };
 
-export const postProduct = async (data) => {
+export const postProduct = async (data = {}) => {
   console.log(data);
   const res = await axios.post(`products`, data, {
     headers: {

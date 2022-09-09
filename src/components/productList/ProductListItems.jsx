@@ -9,7 +9,7 @@ const ProductListItems = () => {
   const { products, isLoading, isError, error } = useSelector(
     (state) => state.products
   );
-  const { tag, search } = useSelector((state) => state.filters);
+  const { tag, search } = useSelector((state) => state.filters) || {};
   const dispatch = useDispatch();
 
   useEffect(() => {

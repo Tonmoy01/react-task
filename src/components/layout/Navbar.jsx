@@ -13,12 +13,15 @@ const Navbar = () => {
   const [input, setInput] = useState(search);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+    dispatch(searched(''));
+    setShow(true);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     dispatch(searched(input));
+    setInput('');
   };
 
   return (
@@ -43,7 +46,11 @@ const Navbar = () => {
             <Button variant='primary' onClick={handleShow}>
               Add Product
             </Button>
-            <InputModal show={show} handleClose={handleClose} />
+            <InputModal
+              show={show}
+              setShow={setShow}
+              handleClose={handleClose}
+            />
           </div>
         </div>
       </nav>

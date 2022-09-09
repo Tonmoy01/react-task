@@ -7,7 +7,7 @@ const ProductListItem = ({ product }) => {
     brand,
     phone_images,
     speciality,
-  } = product;
+  } = product || {};
 
   let tags;
   tags = speciality.map((tag) => (
